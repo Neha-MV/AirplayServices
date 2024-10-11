@@ -1,0 +1,516 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9CD17770443021B3D4ACB1E7 /* Pods_AirPlayDevices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9D1E01C29338FB8CD2126D0 /* Pods_AirPlayDevices.framework */; };
+		B734FD022CB8144F00795603 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B734FD012CB8144F00795603 /* AppDelegate.swift */; };
+		B734FD042CB8144F00795603 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B734FD032CB8144F00795603 /* SceneDelegate.swift */; };
+		B734FD062CB8144F00795603 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B734FD052CB8144F00795603 /* LoginViewController.swift */; };
+		B734FD092CB8144F00795603 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = B734FD082CB8144F00795603 /* Base */; };
+		B734FD0B2CB8145100795603 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B734FD0A2CB8145100795603 /* Assets.xcassets */; };
+		B734FD0E2CB8145100795603 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = B734FD0D2CB8145100795603 /* Base */; };
+		B734FD192CB81ED100795603 /* LoginManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B734FD162CB81D3A00795603 /* LoginManager.m */; };
+		B734FD202CB8260200795603 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B734FD1F2CB8260200795603 /* HomeViewController.swift */; };
+		B734FD222CB8263800795603 /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B734FD212CB8263800795603 /* HomeTableViewCell.swift */; };
+		B734FD242CB8299E00795603 /* DeviceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B734FD232CB8299E00795603 /* DeviceModel.swift */; };
+		B734FD262CB829B300795603 /* AirPlayServiceDiscovery.swift in Sources */ = {isa = PBXBuildFile; fileRef = B734FD252CB829B300795603 /* AirPlayServiceDiscovery.swift */; };
+		B734FD2B2CB83EE600795603 /* HomeDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B734FD2A2CB83EE600795603 /* HomeDetailsViewController.swift */; };
+		B734FD2D2CB83EF700795603 /* HomeDetailsVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = B734FD2C2CB83EF700795603 /* HomeDetailsVM.swift */; };
+		B754479F2CB9A3AB00BB778F /* client_116696020893-6plcf0luuas529gen2bhb3cuedea6tvu.apps.googleusercontent.com.plist in Resources */ = {isa = PBXBuildFile; fileRef = B754479E2CB9A3AB00BB778F /* client_116696020893-6plcf0luuas529gen2bhb3cuedea6tvu.apps.googleusercontent.com.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3D1DA931DA88FC209712CA76 /* Pods-AirPlayDevices.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AirPlayDevices.release.xcconfig"; path = "Target Support Files/Pods-AirPlayDevices/Pods-AirPlayDevices.release.xcconfig"; sourceTree = "<group>"; };
+		8CE03B87D1C6041A9B1E011F /* Pods-AirPlayDevices.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AirPlayDevices.debug.xcconfig"; path = "Target Support Files/Pods-AirPlayDevices/Pods-AirPlayDevices.debug.xcconfig"; sourceTree = "<group>"; };
+		B734FCFE2CB8144F00795603 /* AirPlayDevices.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AirPlayDevices.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B734FD012CB8144F00795603 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B734FD032CB8144F00795603 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B734FD052CB8144F00795603 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		B734FD082CB8144F00795603 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B734FD0A2CB8145100795603 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B734FD0D2CB8145100795603 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B734FD0F2CB8145100795603 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B734FD152CB81D3A00795603 /* AirPlayDevices-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AirPlayDevices-Bridging-Header.h"; sourceTree = "<group>"; };
+		B734FD162CB81D3A00795603 /* LoginManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginManager.m; sourceTree = "<group>"; };
+		B734FD182CB81D7A00795603 /* LoginManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginManager.h; sourceTree = "<group>"; };
+		B734FD1F2CB8260200795603 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		B734FD212CB8263800795603 /* HomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
+		B734FD232CB8299E00795603 /* DeviceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceModel.swift; sourceTree = "<group>"; };
+		B734FD252CB829B300795603 /* AirPlayServiceDiscovery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirPlayServiceDiscovery.swift; sourceTree = "<group>"; };
+		B734FD2A2CB83EE600795603 /* HomeDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeDetailsViewController.swift; sourceTree = "<group>"; };
+		B734FD2C2CB83EF700795603 /* HomeDetailsVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeDetailsVM.swift; sourceTree = "<group>"; };
+		B754479E2CB9A3AB00BB778F /* client_116696020893-6plcf0luuas529gen2bhb3cuedea6tvu.apps.googleusercontent.com.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "client_116696020893-6plcf0luuas529gen2bhb3cuedea6tvu.apps.googleusercontent.com.plist"; sourceTree = "<group>"; };
+		D9D1E01C29338FB8CD2126D0 /* Pods_AirPlayDevices.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AirPlayDevices.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B734FCFB2CB8144F00795603 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CD17770443021B3D4ACB1E7 /* Pods_AirPlayDevices.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B734FCF52CB8144F00795603 = {
+			isa = PBXGroup;
+			children = (
+				B734FD002CB8144F00795603 /* AirPlayDevices */,
+				B734FCFF2CB8144F00795603 /* Products */,
+				E7878A0792D9E00CBA7636B3 /* Pods */,
+				C5174ADF30DB6F51F2B1E036 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B734FCFF2CB8144F00795603 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B734FCFE2CB8144F00795603 /* AirPlayDevices.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B734FD002CB8144F00795603 /* AirPlayDevices */ = {
+			isa = PBXGroup;
+			children = (
+				B734FD012CB8144F00795603 /* AppDelegate.swift */,
+				B734FD032CB8144F00795603 /* SceneDelegate.swift */,
+				B754479E2CB9A3AB00BB778F /* client_116696020893-6plcf0luuas529gen2bhb3cuedea6tvu.apps.googleusercontent.com.plist */,
+				B734FD1D2CB824D500795603 /* Feature */,
+				B734FD072CB8144F00795603 /* Main.storyboard */,
+				B734FD0A2CB8145100795603 /* Assets.xcassets */,
+				B734FD0C2CB8145100795603 /* LaunchScreen.storyboard */,
+				B734FD0F2CB8145100795603 /* Info.plist */,
+				B734FD152CB81D3A00795603 /* AirPlayDevices-Bridging-Header.h */,
+			);
+			path = AirPlayDevices;
+			sourceTree = "<group>";
+		};
+		B734FD1C2CB824CD00795603 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				B734FD182CB81D7A00795603 /* LoginManager.h */,
+				B734FD162CB81D3A00795603 /* LoginManager.m */,
+				B734FD052CB8144F00795603 /* LoginViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		B734FD1D2CB824D500795603 /* Feature */ = {
+			isa = PBXGroup;
+			children = (
+				B734FD292CB83ED100795603 /* Details */,
+				B734FD1E2CB825EE00795603 /* Home */,
+				B734FD1C2CB824CD00795603 /* Login */,
+			);
+			path = Feature;
+			sourceTree = "<group>";
+		};
+		B734FD1E2CB825EE00795603 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				B734FD1F2CB8260200795603 /* HomeViewController.swift */,
+				B734FD252CB829B300795603 /* AirPlayServiceDiscovery.swift */,
+				B734FD232CB8299E00795603 /* DeviceModel.swift */,
+				B734FD212CB8263800795603 /* HomeTableViewCell.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		B734FD292CB83ED100795603 /* Details */ = {
+			isa = PBXGroup;
+			children = (
+				B734FD2A2CB83EE600795603 /* HomeDetailsViewController.swift */,
+				B734FD2C2CB83EF700795603 /* HomeDetailsVM.swift */,
+			);
+			path = Details;
+			sourceTree = "<group>";
+		};
+		C5174ADF30DB6F51F2B1E036 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D9D1E01C29338FB8CD2126D0 /* Pods_AirPlayDevices.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E7878A0792D9E00CBA7636B3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8CE03B87D1C6041A9B1E011F /* Pods-AirPlayDevices.debug.xcconfig */,
+				3D1DA931DA88FC209712CA76 /* Pods-AirPlayDevices.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B734FCFD2CB8144F00795603 /* AirPlayDevices */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B734FD122CB8145100795603 /* Build configuration list for PBXNativeTarget "AirPlayDevices" */;
+			buildPhases = (
+				0D599E32A0733BE207251B70 /* [CP] Check Pods Manifest.lock */,
+				B734FCFA2CB8144F00795603 /* Sources */,
+				B734FCFB2CB8144F00795603 /* Frameworks */,
+				B734FCFC2CB8144F00795603 /* Resources */,
+				41DDA30071CE338DA791E892 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AirPlayDevices;
+			productName = AirPlayDevices;
+			productReference = B734FCFE2CB8144F00795603 /* AirPlayDevices.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B734FCF62CB8144F00795603 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					B734FCFD2CB8144F00795603 = {
+						CreatedOnToolsVersion = 15.4;
+						LastSwiftMigration = 1540;
+					};
+				};
+			};
+			buildConfigurationList = B734FCF92CB8144F00795603 /* Build configuration list for PBXProject "AirPlayDevices" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B734FCF52CB8144F00795603;
+			productRefGroup = B734FCFF2CB8144F00795603 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B734FCFD2CB8144F00795603 /* AirPlayDevices */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B734FCFC2CB8144F00795603 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B734FD0B2CB8145100795603 /* Assets.xcassets in Resources */,
+				B754479F2CB9A3AB00BB778F /* client_116696020893-6plcf0luuas529gen2bhb3cuedea6tvu.apps.googleusercontent.com.plist in Resources */,
+				B734FD0E2CB8145100795603 /* Base in Resources */,
+				B734FD092CB8144F00795603 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0D599E32A0733BE207251B70 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AirPlayDevices-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		41DDA30071CE338DA791E892 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AirPlayDevices/Pods-AirPlayDevices-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AirPlayDevices/Pods-AirPlayDevices-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AirPlayDevices/Pods-AirPlayDevices-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B734FCFA2CB8144F00795603 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B734FD222CB8263800795603 /* HomeTableViewCell.swift in Sources */,
+				B734FD202CB8260200795603 /* HomeViewController.swift in Sources */,
+				B734FD2D2CB83EF700795603 /* HomeDetailsVM.swift in Sources */,
+				B734FD2B2CB83EE600795603 /* HomeDetailsViewController.swift in Sources */,
+				B734FD242CB8299E00795603 /* DeviceModel.swift in Sources */,
+				B734FD262CB829B300795603 /* AirPlayServiceDiscovery.swift in Sources */,
+				B734FD062CB8144F00795603 /* LoginViewController.swift in Sources */,
+				B734FD192CB81ED100795603 /* LoginManager.m in Sources */,
+				B734FD022CB8144F00795603 /* AppDelegate.swift in Sources */,
+				B734FD042CB8144F00795603 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B734FD072CB8144F00795603 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B734FD082CB8144F00795603 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B734FD0C2CB8145100795603 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B734FD0D2CB8145100795603 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B734FD102CB8145100795603 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B734FD112CB8145100795603 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B734FD132CB8145100795603 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8CE03B87D1C6041A9B1E011F /* Pods-AirPlayDevices.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3878466KA4;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AirPlayDevices/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.demo.Airplay.AirPlayDevices;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "AirPlayDevices/AirPlayDevices-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B734FD142CB8145100795603 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D1DA931DA88FC209712CA76 /* Pods-AirPlayDevices.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3878466KA4;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AirPlayDevices/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.demo.Airplay.AirPlayDevices;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "AirPlayDevices/AirPlayDevices-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B734FCF92CB8144F00795603 /* Build configuration list for PBXProject "AirPlayDevices" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B734FD102CB8145100795603 /* Debug */,
+				B734FD112CB8145100795603 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B734FD122CB8145100795603 /* Build configuration list for PBXNativeTarget "AirPlayDevices" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B734FD132CB8145100795603 /* Debug */,
+				B734FD142CB8145100795603 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B734FCF62CB8144F00795603 /* Project object */;
+}
